@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "follow-redirects": "^1.14.8",
+    "websocket-stream": "^5.5.2",
+    "ws": "^8.5.0"
+  }
+}
