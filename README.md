@@ -28,5 +28,15 @@
 - *No exemplo acima, o script server está hospedado em uma VPS Oracle BR (distante de mim). o script client está em meu computador. mesmo abrindo 3 players simultâneos, não percebi travamento na transmissão vinda do servidor remoto, o que indica que a transmissão de saída (script client) está fluida e sem engasgos*
 - *Obviamente podem ocorrer engasgos dependendo da qualidade da internet local onde o client está rodando. Porém todo o processo usou pouca banda para as transmissões.*
 
-**Esse projeto não incentiva pirataria! é APENAS para fins didáticos e de aprendizado sobre streams, websocket e transmissões http**
+### Como usar?
+- Clone esse projeto em seu computador.
+- Instale as dependencias com npm.
+- Execute o ws_server.js (fazendo as modificações de acordo com os comentários no código)
+- Depois execute o ws_client.js (fazendo as modificações de acordo com os comentários no código)
+- Você verá o ws_client.js começando a transmitir para o ws_server.js ( e o ws_server.js recebendo a stream)
+- Acesse o endereço do servidor /multi e (se tudo ocorrer bem) seu navegador/player irá iniciar o recebimento dos dados
+
+## ...
+
+- **Esse projeto não incentiva pirataria! é APENAS para fins didáticos e de aprendizado sobre streams, websocket e transmissões http**
  *Desenvolvido com Node.JS*
